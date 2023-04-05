@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "d20a7571-61b7-42dd-997c-236a30d9b186",
+  "packageName": "com.enzo.bot",
+  "developer": {
+    "name": "raffi",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.teams.com/privacy",
+    "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+    "outline": "enzo.png",
+    "color": "enzo.png"
+  },
+  "name": {
+    "short": "Enzo",
+    "full": "Enzo"
+  },
+  "description": {
+    "short": "Enzo bot",
+    "full": "Enzo bot"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "d20a7571-61b7-42dd-997c-236a30d9b186",
+      "scopes": [
+        "personal",
+        "groupchat",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
